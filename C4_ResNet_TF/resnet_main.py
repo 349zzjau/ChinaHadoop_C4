@@ -33,7 +33,7 @@ tf.app.flags.DEFINE_string('dataset',
                            'cifar10 or cifar100.')
 # 模式：训练、测试
 tf.app.flags.DEFINE_string('mode', 
-                           'eval', 
+                           'train', 
                            'train or eval.')
 # 训练数据路径
 tf.app.flags.DEFINE_string('train_data_path', 
